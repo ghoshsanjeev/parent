@@ -9,7 +9,7 @@ import com.example.util.*;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		System.out.println(Constants.MODULE_NAME);
+		System.out.println("Depends on : "+Constants.MODULE_NAME);
 		SpringApplication.run(DemoApplication.class, args);
 	}
 
