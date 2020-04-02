@@ -3,7 +3,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>parent</artifactId>
-	<version>0.0.4-SNAPSHOT</version>
+	<version>0.0.4</version>
 	<packaging>pom</packaging>
 
 	<name>parent</name>
@@ -16,14 +16,14 @@
 	</properties>
 
 	<modules>
-		<module>demo</module>
 		<module>util</module>
+		<module>demo</module>
 	</modules>
 	<scm>
 		<connection>scm:git:https://github.com/ghoshsanjeev/demo.git</connection>
 		<url>http://github.com/ghoshsanjeev/demo</url>
 		<developerConnection>scm:git:https://github.com/ghoshsanjeev/demo.git</developerConnection>
-		<tag>HEAD</tag>
+		<tag>parent-0.0.4</tag>
 	</scm>
 	<distributionManagement>
 		<repository>
